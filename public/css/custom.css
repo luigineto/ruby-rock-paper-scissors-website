@@ -1,5 +1,10 @@
 /* Layout */
 
+body {
+	background-color: yellow;
+
+}
+
 footer {
 	text-align: center;
 	font-style: italic;
