@@ -1,13 +1,50 @@
 /* Layout */
 
 body {
-	background-color: yellow;
-
+	background-color: #f0810f;
 }
 
-footer {
+p a {
+	color: #011a27;
+	font-size: 22px;
+	font-weight: 100;
+	text-transform: uppercase;
 	text-align: center;
-	font-style: italic;
+}
+
+p a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+button {
+	height: 400px;
+	border: none;
+	padding: 25px;
+	background-color: transparent;
+}
+
+button img {
+	width: 75%;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover img{
+	width: 100%;
+	transition: all 0.3s ease 0s;
+}
+
+button input {
+	display: none;
+}
+
+
+footer {
+	color: #011a27;
+	font-size: 12px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .container {
@@ -18,58 +55,41 @@ footer {
 
 .navbar-fixed-top {
 	height: 50px;
-	border-bottom: 1px solid #1995ad;
-	background-color: #a1d6e2;
+	background-color: transparent;
 }
 
 ul.nav.navbar-nav.navbar-right li a{
-	color: #1995ad;
-	font-size: 16px;
+	color: #063952;
+	font-size: 22px;
 	font-weight: 100;
 	text-transform: uppercase;
 }
 
 ul.nav.navbar-nav.navbar-right li a:hover{
-	color: #1995ad;
+	color: white;
+	background-color: transparent;
 }
 
 /* Navbar-brand */
 
 .navbar-brand {
-	color: #1995ad;
+	color: #063952;
 	font-size: 22px;
 	font-weight: 100;
 	text-transform: uppercase;
 }
 
 a:hover.navbar-brand {
-	color: #f1f1f2 !important;
+	color: white;
 }
 
 /* Jumbotron */
 
 .jumbotron {
-	margin-top: 25px;
-	border: 1px solid #1995ad;
+	height: 400px;
+	margin: 100px;
+	background-color: transparent;
 	text-align: center;
-}
-
-.jumbotron h1 {
-	margin-bottom: 25px;
-	color: #1995ad;
-}
-
-.jumbotron h2 {
-	color: #1995ad;
-
-}
-
-.jumbotron h2 span {
-	color: black;
-}
-
-.jumbotron p {
-	font-size: 18px;
 }
 
 /* Form */
@@ -83,18 +103,4 @@ a:hover.navbar-brand {
 	width: 50%;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-/* Table */
-
-.table {
-	width: 50%;
-	margin: 25px auto 0 auto;
-}
-
-.table thead tr th{
-	color: #1995ad;
-	font-size: 18px;
-	text-align: center;
-	text-transform: uppercase;
 }

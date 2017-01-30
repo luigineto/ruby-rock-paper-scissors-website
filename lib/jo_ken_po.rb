@@ -1,7 +1,7 @@
 class String
 	define_method(:jo_ken_po) do
 		user_choice = self.to_i()
-		computer_choice = srand(2)
+		computer_choice = rand(0..2)
 		result = ""
 
 		case user_choice
