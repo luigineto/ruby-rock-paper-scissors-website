@@ -1,8 +1,12 @@
 class String
 	define_method(:jo_ken_po) do
 		user_choice = self.to_i()
+
+		#only for Rspec tests
+		#computer_choice = srand(012)
+		
 		computer_choice = Random.new.rand(0..2)
-		puts computer_choice
+
 		result = []
 
 		case computer_choice
